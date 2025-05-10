@@ -21,14 +21,6 @@ AI-Powered Writing Assistant is an intelligent web application that helps users 
   
 ## Installation
 
-### 1. Clone the Repository
-
-Clone this repository to your local machine:
-
-```bash
-git clone https://github.com/your-username/ai-writing-assistant.git
-cd ai-writing-assistant
-
 MIT License
 
 Copyright (c) 2025 [Gidon Joseph] GJA-SMMA.COM
