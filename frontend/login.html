@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Writing Assistant - Login & Signup</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Login Form -->
+        <div id="loginForm" class="form-container">
+            <h2>Login</h2>
+            <input type="email" id="email" placeholder="Enter your email" required>
+            <input type="password" id="password" placeholder="Enter your password" required>
+            <button id="loginButton">Login</button>
+            <p>Don't have an account? <span id="toggleToSignup">Sign Up</span></p>
+        </div>
+
+        <!-- Signup Form -->
+        <div id="signupForm" class="form-container" style="display: none;">
+            <h2>Sign Up</h2>
+            <input type="text" id="username" placeholder="Enter your username" required>
+            <input type="email" id="signupEmail" placeholder="Enter your email" required>
+            <input type="password" id="signupPassword" placeholder="Enter your password" required>
+            <button id="registerButton">Sign Up</button>
+            <p>Already have an account? <span id="toggleToLogin">Login</span></p>
+        </div>
+
+        <!-- Main UI -->
+        <div id="loggedInStatus"></div>
+        <button id="logoutButton" style="display: none;">Logout</button>
+
+        <!-- Save Text UI -->
+        <textarea id="textInput" placeholder="Write your text here..."></textarea>
+        <button id="saveButton" style="display: none;">Save Text</button>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
